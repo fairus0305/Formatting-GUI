@@ -57,3 +57,10 @@ for i in range(10):
 
     list_entry.append(entry_nilai)
 
+
+
+label_jurusan = tk.Label(
+    root,
+    text="Pilihan Jurusan Anda:",
+    font=("Arial", 12)
+)
