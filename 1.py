@@ -115,3 +115,15 @@ menu_button.menu.add_radiobutton(
 )
 
 menu_button.pack()
+
+# Button Hasil Prediksi
+button_hasil = tk.Button(
+    root,
+    text="Hasil Prediksi",
+    font=("Arial", 12, "bold"),
+    command=hasil_prediksi
+)
+button_hasil.pack(pady=20)
+
+# Menjalankan aplikasi
+root.mainloop()
