@@ -81,3 +81,37 @@ menu_button.menu = tk.Menu(
     tearoff=0,
     font=("Arial", 11)
 )
+
+menu_button["menu"] = menu_button.menu
+
+menu_button.menu.add_radiobutton(
+    label="Teknologi Informasi",
+    variable=pilihan_jurusan,
+    value="Teknologi Informasi"
+)
+
+menu_button.menu.add_radiobutton(
+    label="Teknik Mesin",
+    variable=pilihan_jurusan,
+    value="Teknik Mesin"
+)
+
+menu_button.menu.add_radiobutton(
+    label="Teknik Sipil",
+    variable=pilihan_jurusan,
+    value="Teknik Sipil"
+)
+
+menu_button.menu.add_radiobutton(
+    label="Teknik Elektro",
+    variable=pilihan_jurusan,
+    value="Teknik Elektro"
+)
+
+menu_button.menu.add_radiobutton(
+    label="Teknik Elektro Medis",
+    variable=pilihan_jurusan,
+    value="Teknik Elektro Medis"
+)
+
+menu_button.pack()
