@@ -68,3 +68,16 @@ label_jurusan.pack(pady=(20, 5))
 
 pilihan_jurusan = tk.StringVar()
 pilihan_jurusan.set("Teknologi Informasi")
+
+menu_button = tk.Menubutton(
+    root,
+    textvariable=pilihan_jurusan,
+    relief=tk.RAISED,
+    font=("Arial", 12)
+)
+
+menu_button.menu = tk.Menu(
+    menu_button,
+    tearoff=0,
+    font=("Arial", 11)
+)
