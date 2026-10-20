@@ -64,3 +64,7 @@ label_jurusan = tk.Label(
     text="Pilihan Jurusan Anda:",
     font=("Arial", 12)
 )
+label_jurusan.pack(pady=(20, 5))
+
+pilihan_jurusan = tk.StringVar()
+pilihan_jurusan.set("Teknologi Informasi")
