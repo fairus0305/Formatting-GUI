@@ -1,0 +1,1 @@
+fg=WARNA_TEKS
